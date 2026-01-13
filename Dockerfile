@@ -1,4 +1,5 @@
 FROM python:3.14
-RUN pip install install -r requirements.txt
 WORKDIR /app
-ENTRYPOINT [ "streamlit", "run", "app.py" ]
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+ENTRYPOINT [ "streamlit", "run", "streamlit_app.py" ]
