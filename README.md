@@ -2,7 +2,7 @@
 
 Aplicación web desarrollada con **Streamlit** que permite clasificar mascotas a partir de sus características físicas utilizando un modelo de **Machine Learning**.
 
-[🔗 **App en línea**]()
+[🔗 **App en línea**](https://alejandrobr-classypet.streamlit.app/)
 
 ## 🧠 Modelo
 
